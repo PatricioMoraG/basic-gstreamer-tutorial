@@ -4,14 +4,12 @@
 
 ```
 docker build -t gstreamer-image .
-
 ```
 
-## 2.- 
+## 2.- Lanzar container
 
 ```
 docker run -it --rm -v c:/sharedFolder:/shared gstreamer-image
-
 ```
 
 ## 3.- verificar version
